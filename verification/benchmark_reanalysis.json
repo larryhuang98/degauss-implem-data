@@ -1,0 +1,78 @@
+{
+  "benzene": {
+    "graph_basis": {
+      "ns_day": 1355.28,
+      "wall_seconds": 6.752027619630098
+    },
+    "graph_md": {
+      "ns_day": 1351.2,
+      "wall_seconds": 6.767830692231655
+    },
+    "ti_mbar": {
+      "ns_day": 537.8,
+      "wall_seconds": 16.476696114987135
+    },
+    "ti_rdc": {
+      "ns_day": 551.01,
+      "wall_seconds": 16.064208887517452
+    },
+    "wall_speedup_vs_gti_rdc": 2.379168124374099
+  },
+  "ethanol": {
+    "graph_basis": {
+      "ns_day": 1648.6,
+      "wall_seconds": 10.895536605268717
+    },
+    "graph_md": {
+      "ns_day": 1653.67,
+      "wall_seconds": 10.898288480937481
+    },
+    "ti_mbar": {
+      "ns_day": 609.31,
+      "wall_seconds": 28.814327027648687
+    },
+    "ti_rdc": {
+      "ns_day": 598.47,
+      "wall_seconds": 29.332331586629152
+    },
+    "wall_speedup_vs_gti_rdc": 2.692141988898924
+  },
+  "methanol": {
+    "graph_basis": {
+      "ns_day": 1693.09,
+      "wall_seconds": 5.477208122611046
+    },
+    "graph_md": {
+      "ns_day": 1696.42,
+      "wall_seconds": 5.472267422825098
+    },
+    "ti_mbar": {
+      "ns_day": 614.77,
+      "wall_seconds": 14.43651970103383
+    },
+    "ti_rdc": {
+      "ns_day": 612.92,
+      "wall_seconds": 14.4887211099267
+    },
+    "wall_speedup_vs_gti_rdc": 2.64527488924773
+  },
+  "small_benzene": {
+    "graph_basis": {
+      "ns_day": 2074.86,
+      "wall_seconds": 8.743664294481277
+    },
+    "graph_md": {
+      "ns_day": 2074.0,
+      "wall_seconds": 8.743854124099016
+    },
+    "ti_mbar": {
+      "ns_day": 667.76,
+      "wall_seconds": 26.290455020964146
+    },
+    "ti_rdc": {
+      "ns_day": 703.25,
+      "wall_seconds": 24.99801891297102
+    },
+    "wall_speedup_vs_gti_rdc": 2.8589865840056294
+  }
+}

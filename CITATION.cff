@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated DEGAUSS in AMBER article and the repository commit used."
+type: dataset
+title: "Data for DEGAUSS in AMBER: GPU Molecular Dynamics and Alchemical Free-Energy Calculations"
+authors:
+  - family-names: Huang
+    given-names: Zhen
+  - family-names: Duan
+    given-names: Yong
+  - family-names: Wu
+    given-names: Xiongwu
+  - family-names: Luo
+    given-names: Ray
+repository-code: "https://github.com/larryhuang98/degauss-implem-data"
+date-released: 2026-10-05
+version: "1.0"

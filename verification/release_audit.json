@@ -1,0 +1,18 @@
+{
+  "archive_count": 24,
+  "archive_bytes": 603807736,
+  "groups": 17,
+  "analysis_checks": [
+    "hydration_reanalysis.json",
+    "gromacs_reanalysis.json",
+    "pure_liquid_reanalysis.json",
+    "fixed_force_reanalysis.json",
+    "sodium_reanalysis.json",
+    "nve_statistics.json",
+    "neutral_reanalysis.json",
+    "benchmark_reanalysis.json",
+    "aqueous_reanalysis.json"
+  ],
+  "source_data_preserved": true,
+  "custom_amber_source_included": false
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "campaign": "eel_explicit_classical_lin11",
+    "replica": 0,
+    "mbar": 89.97042505366359,
+    "bar": 89.95679221410101
+  },
+  {
+    "campaign": "eel_explicit_classical_lin11",
+    "replica": 1,
+    "mbar": 90.24433278105514,
+    "bar": 90.26382653666715
+  },
+  {
+    "campaign": "eel_explicit_classical_lin11",
+    "replica": 2,
+    "mbar": 90.15945148377008,
+    "bar": 90.14140970141597
+  },
+  {
+    "campaign": "eel_explicit_fixed_lin11_reff020",
+    "replica": 0,
+    "mbar": 90.2166643351478,
+    "bar": 90.21590364532166
+  },
+  {
+    "campaign": "eel_explicit_fixed_lin11_reff020",
+    "replica": 1,
+    "mbar": 90.1751951888232,
+    "bar": 90.17218258488292
+  },
+  {
+    "campaign": "eel_explicit_fixed_lin11_reff020",
+    "replica": 2,
+    "mbar": 90.33238010030482,
+    "bar": 90.33524421087316
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_100",
+    "replica": 0,
+    "mbar": 90.34839217605659,
+    "bar": 90.36207745739932
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_100",
+    "replica": 1,
+    "mbar": 90.27085635868276,
+    "bar": 90.26520462419131
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_100",
+    "replica": 2,
+    "mbar": 90.16124549352071,
+    "bar": 90.20288580806357
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_200",
+    "replica": 0,
+    "mbar": 89.90600033310726,
+    "bar": 90.2663632935058
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_200",
+    "replica": 1,
+    "mbar": 89.97025861849768,
+    "bar": 90.42079588990691
+  },
+  {
+    "campaign": "eel_explicit_radius_lin11_reffexp4_r020_200",
+    "replica": 2,
+    "mbar": 89.85325372553247,
+    "bar": 90.10841977562477
+  }
+]

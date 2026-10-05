@@ -1,0 +1,530 @@
+{
+  "fixed/methanol/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.005814705160679757,
+    "force_max_kcal_mol_A": 0.03575413908022007
+  },
+  "fixed/methanol/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920096403,
+    "force_max_kcal_mol_A": 0.035748284314689016
+  },
+  "fixed/methanol/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005814717243442819,
+    "force_max_kcal_mol_A": 0.03576624225547853
+  },
+  "fixed/methanol/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920109143,
+    "force_max_kcal_mol_A": 0.03574828431577437
+  },
+  "fixed/methanol/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.00581445693369083,
+    "force_max_kcal_mol_A": 0.03569179952084944
+  },
+  "fixed/methanol/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920109409,
+    "force_max_kcal_mol_A": 0.03574828431389676
+  },
+  "fixed/methanol/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005814671040880971,
+    "force_max_kcal_mol_A": 0.03575948135334173
+  },
+  "fixed/methanol/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920112086,
+    "force_max_kcal_mol_A": 0.035748284312637324
+  },
+  "fixed/methanol/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005814725640781878,
+    "force_max_kcal_mol_A": 0.03574525092444425
+  },
+  "fixed/methanol/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920109994,
+    "force_max_kcal_mol_A": 0.03574828431601418
+  },
+  "fixed/methanol/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 0.005814690790284132,
+    "force_max_kcal_mol_A": 0.03575440622222814
+  },
+  "fixed/methanol/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951920103773,
+    "force_max_kcal_mol_A": 0.035748284316239776
+  },
+  "fixed/methanol/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 0.005814646388572298,
+    "force_max_kcal_mol_A": 0.03575047845219537
+  },
+  "fixed/methanol/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951876823858,
+    "force_max_kcal_mol_A": 0.03574823782890313
+  },
+  "fixed/methanol/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 0.005814869440983426,
+    "force_max_kcal_mol_A": 0.03571356111266155
+  },
+  "fixed/methanol/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951919762821,
+    "force_max_kcal_mol_A": 0.035748284291612364
+  },
+  "fixed/methanol/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 0.00026757166099802105,
+    "force_max_kcal_mol_A": 0.001396140749989172
+  },
+  "fixed/methanol/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 0.00026467642749010076,
+    "force_max_kcal_mol_A": 0.001382589706533821
+  },
+  "fixed/methanol/virial/spfp": {
+    "force_rms_kcal_mol_A": 0.005814854826127777,
+    "force_max_kcal_mol_A": 0.03576026787709985
+  },
+  "fixed/methanol/virial/dpfp": {
+    "force_rms_kcal_mol_A": 0.005814951919917732,
+    "force_max_kcal_mol_A": 0.0357482843223238
+  },
+  "fixed/ethanol/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.005407112688997905,
+    "force_max_kcal_mol_A": 0.033180334486656804
+  },
+  "fixed/ethanol/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349629378,
+    "force_max_kcal_mol_A": 0.03319408577447369
+  },
+  "fixed/ethanol/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005407095966940569,
+    "force_max_kcal_mol_A": 0.033193926182999434
+  },
+  "fixed/ethanol/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349635226,
+    "force_max_kcal_mol_A": 0.03319408577480587
+  },
+  "fixed/ethanol/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005407025979751444,
+    "force_max_kcal_mol_A": 0.03315798594484143
+  },
+  "fixed/ethanol/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349627342,
+    "force_max_kcal_mol_A": 0.033194085773091686
+  },
+  "fixed/ethanol/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005407072810419729,
+    "force_max_kcal_mol_A": 0.03317928303402695
+  },
+  "fixed/ethanol/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349636252,
+    "force_max_kcal_mol_A": 0.033194085773267545
+  },
+  "fixed/ethanol/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.005407121957541746,
+    "force_max_kcal_mol_A": 0.03317632290299066
+  },
+  "fixed/ethanol/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349639983,
+    "force_max_kcal_mol_A": 0.03319408577381111
+  },
+  "fixed/ethanol/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 0.005407121335757203,
+    "force_max_kcal_mol_A": 0.03318025363026855
+  },
+  "fixed/ethanol/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349631749,
+    "force_max_kcal_mol_A": 0.033194085771755866
+  },
+  "fixed/ethanol/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 0.005407192680600785,
+    "force_max_kcal_mol_A": 0.03317777720709891
+  },
+  "fixed/ethanol/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178377862457,
+    "force_max_kcal_mol_A": 0.03319411637576053
+  },
+  "fixed/ethanol/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 0.005407247772117635,
+    "force_max_kcal_mol_A": 0.03316816957791957
+  },
+  "fixed/ethanol/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 0.00540717834944077,
+    "force_max_kcal_mol_A": 0.0331940857821742
+  },
+  "fixed/ethanol/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 0.00022889967366251468,
+    "force_max_kcal_mol_A": 0.0012077207684697555
+  },
+  "fixed/ethanol/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 0.00022592827577322,
+    "force_max_kcal_mol_A": 0.0012362733378061819
+  },
+  "fixed/ethanol/virial/spfp": {
+    "force_rms_kcal_mol_A": 0.005407516953400789,
+    "force_max_kcal_mol_A": 0.03320625877106842
+  },
+  "fixed/ethanol/virial/dpfp": {
+    "force_rms_kcal_mol_A": 0.005407178349370401,
+    "force_max_kcal_mol_A": 0.03319408576436089
+  },
+  "fixed/benzene/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.003353791447478188,
+    "force_max_kcal_mol_A": 0.026160541746992116
+  },
+  "fixed/benzene/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432617088822,
+    "force_max_kcal_mol_A": 0.026220719582042307
+  },
+  "fixed/benzene/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.003353665084980578,
+    "force_max_kcal_mol_A": 0.02620354917974277
+  },
+  "fixed/benzene/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616832426,
+    "force_max_kcal_mol_A": 0.026220719582083607
+  },
+  "fixed/benzene/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.0033542951529580618,
+    "force_max_kcal_mol_A": 0.026076018366680387
+  },
+  "fixed/benzene/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616835644,
+    "force_max_kcal_mol_A": 0.026220719580296148
+  },
+  "fixed/benzene/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 0.0033536607782593563,
+    "force_max_kcal_mol_A": 0.026172140535557276
+  },
+  "fixed/benzene/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616833016,
+    "force_max_kcal_mol_A": 0.026220719582337182
+  },
+  "fixed/benzene/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 0.0033538219101004177,
+    "force_max_kcal_mol_A": 0.026149907671039863
+  },
+  "fixed/benzene/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616860633,
+    "force_max_kcal_mol_A": 0.026220719580907215
+  },
+  "fixed/benzene/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 0.003353783811054799,
+    "force_max_kcal_mol_A": 0.026161771168099257
+  },
+  "fixed/benzene/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 0.003352343261704122,
+    "force_max_kcal_mol_A": 0.026220719580639873
+  },
+  "fixed/benzene/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 0.0033537314165631997,
+    "force_max_kcal_mol_A": 0.0261577248777769
+  },
+  "fixed/benzene/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 0.00335234303941921,
+    "force_max_kcal_mol_A": 0.026220756332881123
+  },
+  "fixed/benzene/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 0.0033539956468121726,
+    "force_max_kcal_mol_A": 0.026108446463240398
+  },
+  "fixed/benzene/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616634876,
+    "force_max_kcal_mol_A": 0.02622071967592632
+  },
+  "fixed/benzene/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 0.0001662483214065259,
+    "force_max_kcal_mol_A": 0.0022179980921031017
+  },
+  "fixed/benzene/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 0.00015562912182202202,
+    "force_max_kcal_mol_A": 0.0012560366780096643
+  },
+  "fixed/benzene/virial/spfp": {
+    "force_rms_kcal_mol_A": 0.0033538972268813785,
+    "force_max_kcal_mol_A": 0.02614564419140386
+  },
+  "fixed/benzene/virial/dpfp": {
+    "force_rms_kcal_mol_A": 0.0033523432616635535,
+    "force_max_kcal_mol_A": 0.02622071958088057
+  },
+  "fixed/methanol_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.001796214966929122,
+    "force_max_kcal_mol_A": 0.012877897565145013
+  },
+  "fixed/methanol_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.0017962700639755854,
+    "force_max_kcal_mol_A": 0.012875607096431096
+  },
+  "fixed/ethanol_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.0014600566228942901,
+    "force_max_kcal_mol_A": 0.00962467651193677
+  },
+  "fixed/ethanol_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.0014598304146749353,
+    "force_max_kcal_mol_A": 0.009604249887907201
+  },
+  "fixed/benzene_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 0.001719827296534541,
+    "force_max_kcal_mol_A": 0.01095566248859825
+  },
+  "fixed/benzene_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 0.0017194883726237833,
+    "force_max_kcal_mol_A": 0.010984376916745475
+  },
+  "fixed_matched_mesh/benzene/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 4.9035565166997654e-05,
+    "force_max_kcal_mol_A": 0.0019777404480798566
+  },
+  "fixed_matched_mesh/benzene/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 2.806675683600023e-11,
+    "force_max_kcal_mol_A": 9.034195613821794e-11
+  },
+  "fixed_matched_mesh/benzene/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 7.305700543245795e-05,
+    "force_max_kcal_mol_A": 0.001977669425368589
+  },
+  "fixed_matched_mesh/benzene/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 2.8102178750692732e-11,
+    "force_max_kcal_mol_A": 8.997602662930149e-11
+  },
+  "fixed_matched_mesh/benzene/baseline/spfp": {
+    "force_rms_kcal_mol_A": 5.621018129323668e-05,
+    "force_max_kcal_mol_A": 0.001977755487109434
+  },
+  "fixed_matched_mesh/benzene/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 2.8199102609333847e-11,
+    "force_max_kcal_mol_A": 9.166711834041052e-11
+  },
+  "fixed_matched_mesh/benzene/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 5.6254211884115986e-05,
+    "force_max_kcal_mol_A": 0.0019755801897609615
+  },
+  "fixed_matched_mesh/benzene/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 2.8101096201685505e-11,
+    "force_max_kcal_mol_A": 9.053024996319436e-11
+  },
+  "fixed_matched_mesh/benzene/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 5.3835951399516165e-05,
+    "force_max_kcal_mol_A": 0.001977723239523499
+  },
+  "fixed_matched_mesh/benzene/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 2.8084612482104036e-11,
+    "force_max_kcal_mol_A": 9.020695301842352e-11
+  },
+  "fixed_matched_mesh/benzene/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 5.883970080278483e-05,
+    "force_max_kcal_mol_A": 0.001977669045460928
+  },
+  "fixed_matched_mesh/benzene/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 2.806982257003198e-11,
+    "force_max_kcal_mol_A": 8.685319130563585e-11
+  },
+  "fixed_matched_mesh/benzene/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 6.755865556682806e-05,
+    "force_max_kcal_mol_A": 0.0019777286491216017
+  },
+  "fixed_matched_mesh/benzene/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 8.182288084059745e-11,
+    "force_max_kcal_mol_A": 1.0868599353841546e-09
+  },
+  "fixed_matched_mesh/benzene/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 5.620962068279901e-05,
+    "force_max_kcal_mol_A": 0.0019777841969919052
+  },
+  "fixed_matched_mesh/benzene/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 2.78579056316553e-11,
+    "force_max_kcal_mol_A": 8.882494739737012e-11
+  },
+  "fixed_matched_mesh/benzene/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 5.664998903012012e-05,
+    "force_max_kcal_mol_A": 0.0019794254055387484
+  },
+  "fixed_matched_mesh/benzene/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 3.259971249768274e-08,
+    "force_max_kcal_mol_A": 1.8872339957454187e-07
+  },
+  "fixed_matched_mesh/benzene/virial/spfp": {
+    "force_rms_kcal_mol_A": 5.5952184912596854e-05,
+    "force_max_kcal_mol_A": 0.0019828742222287588
+  },
+  "fixed_matched_mesh/benzene/virial/dpfp": {
+    "force_rms_kcal_mol_A": 2.870841748166174e-11,
+    "force_max_kcal_mol_A": 9.064748951459478e-11
+  },
+  "fixed_matched_mesh/benzene_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 2.186451380132729e-05,
+    "force_max_kcal_mol_A": 0.0002978589091355843
+  },
+  "fixed_matched_mesh/benzene_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 1.6953266521205175e-11,
+    "force_max_kcal_mol_A": 7.812417379682302e-11
+  },
+  "fixed_matched_mesh/ethanol/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 2.732898110243675e-05,
+    "force_max_kcal_mol_A": 0.00030258000007066244
+  },
+  "fixed_matched_mesh/ethanol/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 4.189161988023907e-08,
+    "force_max_kcal_mol_A": 2.0512238023684404e-06
+  },
+  "fixed_matched_mesh/ethanol/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 6.147351270071279e-05,
+    "force_max_kcal_mol_A": 0.0009070564969988482
+  },
+  "fixed_matched_mesh/ethanol/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 4.1891594240929825e-08,
+    "force_max_kcal_mol_A": 2.051220910459506e-06
+  },
+  "fixed_matched_mesh/ethanol/baseline/spfp": {
+    "force_rms_kcal_mol_A": 3.901989723376394e-05,
+    "force_max_kcal_mol_A": 0.0004962708315474629
+  },
+  "fixed_matched_mesh/ethanol/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 4.1891648118688205e-08,
+    "force_max_kcal_mol_A": 2.0512278933182415e-06
+  },
+  "fixed_matched_mesh/ethanol/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 3.905537029849239e-05,
+    "force_max_kcal_mol_A": 0.0005017893217704739
+  },
+  "fixed_matched_mesh/ethanol/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 4.189164067997018e-08,
+    "force_max_kcal_mol_A": 2.0512282112861158e-06
+  },
+  "fixed_matched_mesh/ethanol/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 3.529327953761503e-05,
+    "force_max_kcal_mol_A": 0.00043821922321996
+  },
+  "fixed_matched_mesh/ethanol/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 4.189161744325729e-08,
+    "force_max_kcal_mol_A": 2.051222988797008e-06
+  },
+  "fixed_matched_mesh/ethanol/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 4.2956557498907614e-05,
+    "force_max_kcal_mol_A": 0.0005536876280629599
+  },
+  "fixed_matched_mesh/ethanol/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 4.1891624144199354e-08,
+    "force_max_kcal_mol_A": 2.0512240759273936e-06
+  },
+  "fixed_matched_mesh/ethanol/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 5.611086422298596e-05,
+    "force_max_kcal_mol_A": 0.0007662940572998878
+  },
+  "fixed_matched_mesh/ethanol/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 4.189155650068951e-08,
+    "force_max_kcal_mol_A": 2.0512254828020104e-06
+  },
+  "fixed_matched_mesh/ethanol/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 3.9052857662938226e-05,
+    "force_max_kcal_mol_A": 0.0004961397308527182
+  },
+  "fixed_matched_mesh/ethanol/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 4.189164753936242e-08,
+    "force_max_kcal_mol_A": 2.051225386878741e-06
+  },
+  "fixed_matched_mesh/ethanol/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 3.966535242049959e-05,
+    "force_max_kcal_mol_A": 0.0004999577305220271
+  },
+  "fixed_matched_mesh/ethanol/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 5.155602922680591e-08,
+    "force_max_kcal_mol_A": 2.0494527266379237e-06
+  },
+  "fixed_matched_mesh/ethanol/virial/spfp": {
+    "force_rms_kcal_mol_A": 3.9498859465309564e-05,
+    "force_max_kcal_mol_A": 0.0004788866142035886
+  },
+  "fixed_matched_mesh/ethanol/virial/dpfp": {
+    "force_rms_kcal_mol_A": 4.1891615732145443e-08,
+    "force_max_kcal_mol_A": 2.0512231895253308e-06
+  },
+  "fixed_matched_mesh/ethanol_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 2.197461948174554e-05,
+    "force_max_kcal_mol_A": 0.0003393350515246141
+  },
+  "fixed_matched_mesh/ethanol_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 6.7566527397226e-10,
+    "force_max_kcal_mol_A": 7.324142714537629e-08
+  },
+  "fixed_matched_mesh/methanol/alpha_minus10/spfp": {
+    "force_rms_kcal_mol_A": 2.752794654010281e-05,
+    "force_max_kcal_mol_A": 0.00028802382465187293
+  },
+  "fixed_matched_mesh/methanol/alpha_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 3.8171507173039644e-08,
+    "force_max_kcal_mol_A": 2.3012483190143485e-06
+  },
+  "fixed_matched_mesh/methanol/alpha_plus10/spfp": {
+    "force_rms_kcal_mol_A": 6.146609273029889e-05,
+    "force_max_kcal_mol_A": 0.0007991246150140796
+  },
+  "fixed_matched_mesh/methanol/alpha_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 3.817150007595302e-08,
+    "force_max_kcal_mol_A": 2.3012478624906407e-06
+  },
+  "fixed_matched_mesh/methanol/baseline/spfp": {
+    "force_rms_kcal_mol_A": 3.9387875376502636e-05,
+    "force_max_kcal_mol_A": 0.000505598955669484
+  },
+  "fixed_matched_mesh/methanol/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 3.817150983635467e-08,
+    "force_max_kcal_mol_A": 2.3012456864535125e-06
+  },
+  "fixed_matched_mesh/methanol/baseline_order6/spfp": {
+    "force_rms_kcal_mol_A": 3.9434393006522354e-05,
+    "force_max_kcal_mol_A": 0.0005021618833396246
+  },
+  "fixed_matched_mesh/methanol/baseline_order6/dpfp": {
+    "force_rms_kcal_mol_A": 3.817151057158858e-08,
+    "force_max_kcal_mol_A": 2.3012481538131624e-06
+  },
+  "fixed_matched_mesh/methanol/beta_minus10/spfp": {
+    "force_rms_kcal_mol_A": 3.5713450529842906e-05,
+    "force_max_kcal_mol_A": 0.00044487442729490567
+  },
+  "fixed_matched_mesh/methanol/beta_minus10/dpfp": {
+    "force_rms_kcal_mol_A": 3.8171500654388246e-08,
+    "force_max_kcal_mol_A": 2.3012471324079797e-06
+  },
+  "fixed_matched_mesh/methanol/beta_plus10/spfp": {
+    "force_rms_kcal_mol_A": 4.3271528355358216e-05,
+    "force_max_kcal_mol_A": 0.0005708388435010647
+  },
+  "fixed_matched_mesh/methanol/beta_plus10/dpfp": {
+    "force_rms_kcal_mol_A": 3.817150333568122e-08,
+    "force_max_kcal_mol_A": 2.301249317326892e-06
+  },
+  "fixed_matched_mesh/methanol/heterogeneous/spfp": {
+    "force_rms_kcal_mol_A": 5.550247279534319e-05,
+    "force_max_kcal_mol_A": 0.0007887373072605897
+  },
+  "fixed_matched_mesh/methanol/heterogeneous/dpfp": {
+    "force_rms_kcal_mol_A": 3.8171647141548605e-08,
+    "force_max_kcal_mol_A": 2.301256234460425e-06
+  },
+  "fixed_matched_mesh/methanol/radii_0p1/spfp": {
+    "force_rms_kcal_mol_A": 3.939064586996407e-05,
+    "force_max_kcal_mol_A": 0.0005066216183635674
+  },
+  "fixed_matched_mesh/methanol/radii_0p1/dpfp": {
+    "force_rms_kcal_mol_A": 3.81715213425575e-08,
+    "force_max_kcal_mol_A": 2.301248446912041e-06
+  },
+  "fixed_matched_mesh/methanol/radii_0p4/spfp": {
+    "force_rms_kcal_mol_A": 4.010797691937673e-05,
+    "force_max_kcal_mol_A": 0.0005227112101451326
+  },
+  "fixed_matched_mesh/methanol/radii_0p4/dpfp": {
+    "force_rms_kcal_mol_A": 4.950253335634179e-08,
+    "force_max_kcal_mol_A": 2.3318953221718175e-06
+  },
+  "fixed_matched_mesh/methanol/virial/spfp": {
+    "force_rms_kcal_mol_A": 3.934009172591205e-05,
+    "force_max_kcal_mol_A": 0.0004187782238815885
+  },
+  "fixed_matched_mesh/methanol/virial/dpfp": {
+    "force_rms_kcal_mol_A": 3.8171461783568973e-08,
+    "force_max_kcal_mol_A": 2.3012426666468855e-06
+  },
+  "fixed_matched_mesh/methanol_large/baseline/spfp": {
+    "force_rms_kcal_mol_A": 2.1017871267250806e-05,
+    "force_max_kcal_mol_A": 0.0003437453765897658
+  },
+  "fixed_matched_mesh/methanol_large/baseline/dpfp": {
+    "force_rms_kcal_mol_A": 5.318288123867038e-10,
+    "force_max_kcal_mol_A": 7.311020588929296e-08
+  }
+}

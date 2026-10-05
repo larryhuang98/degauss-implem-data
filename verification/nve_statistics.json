@@ -1,0 +1,66 @@
+{
+  "DEGAUSS_IPS_SPFP": {
+    "file": "nve_fair/raw_ips_spfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -30444.450013326656,
+    "detrended_rms_kcal_mol": 0.4879383682659613,
+    "drift_kcal_mol_atom_ps": 3.931082645217838e-08,
+    "ns_per_day": 1135.71
+  },
+  "DEGAUSS_IPS_DPFP": {
+    "file": "nve_fair/raw_ips_dpfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -30446.88874829659,
+    "detrended_rms_kcal_mol": 0.4820938103872357,
+    "drift_kcal_mol_atom_ps": 2.064232917995221e-10,
+    "ns_per_day": 48.46
+  },
+  "DEGAUSS_PME_SPFP": {
+    "file": "nve_fair/raw_pme_spfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -30097.520499098195,
+    "detrended_rms_kcal_mol": 0.5038842439344023,
+    "drift_kcal_mol_atom_ps": 3.0441830008753464e-08,
+    "ns_per_day": 903.85
+  },
+  "DEGAUSS_PME_DPFP": {
+    "file": "nve_fair/raw_pme_dpfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -30099.042505911824,
+    "detrended_rms_kcal_mol": 0.4722912573640311,
+    "drift_kcal_mol_atom_ps": 3.4564244287053284e-09,
+    "ns_per_day": 44.47
+  },
+  "Classical_IPS_SPFP": {
+    "file": "nve_classical/nve_ips.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -32126.224891983966,
+    "detrended_rms_kcal_mol": 0.4611550727432481,
+    "drift_kcal_mol_atom_ps": 4.3810611654737773e-08,
+    "ns_per_day": 1180.35
+  },
+  "Classical_IPS_DPFP": {
+    "file": "nve_matrix/cl_ips_dpfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -32128.865976452907,
+    "detrended_rms_kcal_mol": 0.4616774269935236,
+    "drift_kcal_mol_atom_ps": -3.0257902722091563e-10,
+    "ns_per_day": 234.75
+  },
+  "Classical_PME_SPFP": {
+    "file": "pme_hi/cl_pme_spfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -32088.006761523047,
+    "detrended_rms_kcal_mol": 0.5442091843544024,
+    "drift_kcal_mol_atom_ps": 3.464018670189144e-08,
+    "ns_per_day": 1029.54
+  },
+  "Classical_PME_DPFP": {
+    "file": "pme_hi/cl_pme_dpfp.out",
+    "samples": 998,
+    "mean_energy_kcal_mol": -32090.25012304609,
+    "detrended_rms_kcal_mol": 0.5291792249667069,
+    "drift_kcal_mol_atom_ps": 5.614550577157342e-09,
+    "ns_per_day": 81.82
+  }
+}

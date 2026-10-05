@@ -1,0 +1,83 @@
+[
+  {
+    "solute": "benzene",
+    "model": "direct_de",
+    "endpoints": [
+      1.149461,
+      1.205027,
+      1.165492
+    ]
+  },
+  {
+    "solute": "benzene",
+    "model": "cubic_prefactor_de",
+    "endpoints": [
+      1.289114,
+      1.176484,
+      1.105546
+    ]
+  },
+  {
+    "solute": "benzene",
+    "model": "classical_softcore",
+    "endpoints": [
+      1.267052,
+      1.26867,
+      1.216528
+    ]
+  },
+  {
+    "solute": "methane",
+    "model": "direct_de",
+    "endpoints": [
+      -2.474238,
+      -2.466266,
+      -2.419106
+    ]
+  },
+  {
+    "solute": "methane",
+    "model": "cubic_prefactor_de",
+    "endpoints": [
+      -2.448445,
+      -2.496848,
+      -2.501881
+    ]
+  },
+  {
+    "solute": "methane",
+    "model": "classical_softcore",
+    "endpoints": [
+      -2.458876,
+      -2.4823,
+      -2.456008
+    ]
+  },
+  {
+    "solute": "O2",
+    "model": "direct_de",
+    "endpoints": [
+      -0.865582,
+      -0.895215,
+      -0.887111
+    ]
+  },
+  {
+    "solute": "O2",
+    "model": "cubic_prefactor_de",
+    "endpoints": [
+      -0.848726,
+      -0.844592,
+      -0.832436
+    ]
+  },
+  {
+    "solute": "O2",
+    "model": "classical_softcore",
+    "endpoints": [
+      -0.882141,
+      -0.879781,
+      -0.870401
+    ]
+  }
+]

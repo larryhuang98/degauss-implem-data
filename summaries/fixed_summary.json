@@ -1,0 +1,866 @@
+{
+  "methanol/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814705160679757,
+      "force_max_kcal_mol_A": 0.03575413908022007,
+      "relative_force_rms": 0.0004193724818656974,
+      "EPtot_difference_kcal_mol": 0.014700000000630098,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920096403,
+      "force_max_kcal_mol_A": 0.035748284314689016,
+      "relative_force_rms": 0.0004193902788315148,
+      "EPtot_difference_kcal_mol": 0.005200000000513683,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/alpha_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814717243442819,
+      "force_max_kcal_mol_A": 0.03576624225547853,
+      "relative_force_rms": 0.0004269676014816043,
+      "EPtot_difference_kcal_mol": 0.013100000000122236,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920109143,
+      "force_max_kcal_mol_A": 0.03574828431577437,
+      "relative_force_rms": 0.00042698483350323994,
+      "EPtot_difference_kcal_mol": 0.005199999999604188,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/alpha_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.00581445693369083,
+      "force_max_kcal_mol_A": 0.03569179952084944,
+      "relative_force_rms": 0.0003975006427973566,
+      "EPtot_difference_kcal_mol": 0.017300000000432192,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920109409,
+      "force_max_kcal_mol_A": 0.03574828431389676,
+      "relative_force_rms": 0.00039753448214328434,
+      "EPtot_difference_kcal_mol": 0.005200000000513683,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/beta_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814671040880971,
+      "force_max_kcal_mol_A": 0.03575948135334173,
+      "relative_force_rms": 0.0004224237281018968,
+      "EPtot_difference_kcal_mol": 0.01449999999931606,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920112086,
+      "force_max_kcal_mol_A": 0.035748284312637324,
+      "relative_force_rms": 0.0004224441333924317,
+      "EPtot_difference_kcal_mol": 0.0052999999998064595,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/beta_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814725640781878,
+      "force_max_kcal_mol_A": 0.03574525092444425,
+      "relative_force_rms": 0.0004155945345052774,
+      "EPtot_difference_kcal_mol": 0.014699999999720603,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920109994,
+      "force_max_kcal_mol_A": 0.03574828431601418,
+      "relative_force_rms": 0.0004156107073151134,
+      "EPtot_difference_kcal_mol": 0.005199999999604188,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/radii_0p1": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814690790284132,
+      "force_max_kcal_mol_A": 0.03575440622222814,
+      "relative_force_rms": 0.0004193714351855555,
+      "EPtot_difference_kcal_mol": 0.014699999999720603,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951920103773,
+      "force_max_kcal_mol_A": 0.035748284316239776,
+      "relative_force_rms": 0.0004193902685837846,
+      "EPtot_difference_kcal_mol": 0.005199999999604188,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/radii_0p4": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814646388572298,
+      "force_max_kcal_mol_A": 0.03575047845219537,
+      "relative_force_rms": 0.0004256602088494348,
+      "EPtot_difference_kcal_mol": 0.01959999999962747,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951876823858,
+      "force_max_kcal_mol_A": 0.03574823782890313,
+      "relative_force_rms": 0.0004256825720654019,
+      "EPtot_difference_kcal_mol": 0.005199999999604188,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/heterogeneous": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814869440983426,
+      "force_max_kcal_mol_A": 0.03571356111266155,
+      "relative_force_rms": 0.00040083803534046687,
+      "EPtot_difference_kcal_mol": 0.015500000000429281,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951919762821,
+      "force_max_kcal_mol_A": 0.035748284291612364,
+      "relative_force_rms": 0.0004008437208734312,
+      "EPtot_difference_kcal_mol": 0.005200000000513683,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/baseline_order6": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.00026757166099802105,
+      "force_max_kcal_mol_A": 0.001396140749989172,
+      "relative_force_rms": 1.9298073257011287e-05,
+      "EPtot_difference_kcal_mol": 0.009900000000016007,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.00026467642749010076,
+      "force_max_kcal_mol_A": 0.001382589706533821,
+      "relative_force_rms": 1.9089260305282395e-05,
+      "EPtot_difference_kcal_mol": 0.0004999999991923687,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "methanol/virial": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005814854826127777,
+      "force_max_kcal_mol_A": 0.03576026787709985,
+      "relative_force_rms": 0.0004193832761290719,
+      "EPtot_difference_kcal_mol": 0.013900000000830914,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.05810000000008131,
+      "PRESS_difference": -0.10000000000013642
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005814951919917732,
+      "force_max_kcal_mol_A": 0.0357482843223238,
+      "relative_force_rms": 0.0004193902787994636,
+      "EPtot_difference_kcal_mol": 0.005200000000513683,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.08240000000000691,
+      "PRESS_difference": -0.20000000000004547
+    }
+  },
+  "ethanol/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407112688997905,
+      "force_max_kcal_mol_A": 0.033180334486656804,
+      "relative_force_rms": 0.0003888415248117771,
+      "EPtot_difference_kcal_mol": 0.00860000000011496,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349629378,
+      "force_max_kcal_mol_A": 0.03319408577447369,
+      "relative_force_rms": 0.0003888462466627039,
+      "EPtot_difference_kcal_mol": 0.0029999999997016857,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/alpha_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407095966940569,
+      "force_max_kcal_mol_A": 0.033193926182999434,
+      "relative_force_rms": 0.0003956524769124505,
+      "EPtot_difference_kcal_mol": 0.006999999999607098,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349635226,
+      "force_max_kcal_mol_A": 0.03319408577480587,
+      "relative_force_rms": 0.0003956585050867967,
+      "EPtot_difference_kcal_mol": 0.0029999999997016857,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/alpha_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407025979751444,
+      "force_max_kcal_mol_A": 0.03315798594484143,
+      "relative_force_rms": 0.00036925962879037516,
+      "EPtot_difference_kcal_mol": 0.010900000000219734,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349627342,
+      "force_max_kcal_mol_A": 0.033194085773091686,
+      "relative_force_rms": 0.0003692700345187781,
+      "EPtot_difference_kcal_mol": 0.0030000000006111804,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/beta_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407072810419729,
+      "force_max_kcal_mol_A": 0.03317928303402695,
+      "relative_force_rms": 0.00039157686707590124,
+      "EPtot_difference_kcal_mol": 0.008400000000619912,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349636252,
+      "force_max_kcal_mol_A": 0.033194085773267545,
+      "relative_force_rms": 0.00039158451016065493,
+      "EPtot_difference_kcal_mol": 0.0030000000006111804,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/beta_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407121957541746,
+      "force_max_kcal_mol_A": 0.03317632290299066,
+      "relative_force_rms": 0.0003854663615501528,
+      "EPtot_difference_kcal_mol": 0.008599999999205465,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349639983,
+      "force_max_kcal_mol_A": 0.03319408577381111,
+      "relative_force_rms": 0.0003854703816660478,
+      "EPtot_difference_kcal_mol": 0.0030999999999039574,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/radii_0p1": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407121335757203,
+      "force_max_kcal_mol_A": 0.03318025363026855,
+      "relative_force_rms": 0.00038884213680969354,
+      "EPtot_difference_kcal_mol": 0.008700000000317232,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349631749,
+      "force_max_kcal_mol_A": 0.033194085771755866,
+      "relative_force_rms": 0.0003888462368465578,
+      "EPtot_difference_kcal_mol": 0.0029999999997016857,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/radii_0p4": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407192680600785,
+      "force_max_kcal_mol_A": 0.03317777720709891,
+      "relative_force_rms": 0.0003944024478148206,
+      "EPtot_difference_kcal_mol": 0.013700000000426371,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178377862457,
+      "force_max_kcal_mol_A": 0.03319411637576053,
+      "relative_force_rms": 0.0003944014045682895,
+      "EPtot_difference_kcal_mol": 0.0030999999999039574,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/heterogeneous": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407247772117635,
+      "force_max_kcal_mol_A": 0.03316816957791957,
+      "relative_force_rms": 0.00037232415036107526,
+      "EPtot_difference_kcal_mol": 0.008900000000721775,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.00540717834944077,
+      "force_max_kcal_mol_A": 0.0331940857821742,
+      "relative_force_rms": 0.00037231937015860095,
+      "EPtot_difference_kcal_mol": 0.0030000000006111804,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/baseline_order6": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.00022889967366251468,
+      "force_max_kcal_mol_A": 0.0012077207684697555,
+      "relative_force_rms": 1.6460892330089656e-05,
+      "EPtot_difference_kcal_mol": 0.00709999999980937,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.00022592827577322,
+      "force_max_kcal_mol_A": 0.0012362733378061819,
+      "relative_force_rms": 1.624720980296797e-05,
+      "EPtot_difference_kcal_mol": 0.0014999999993960955,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol/virial": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.005407516953400789,
+      "force_max_kcal_mol_A": 0.03320625877106842,
+      "relative_force_rms": 0.0003888705966468442,
+      "EPtot_difference_kcal_mol": 0.006699999999909778,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.022699999999986176,
+      "PRESS_difference": -0.10000000000013642
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.005407178349370401,
+      "force_max_kcal_mol_A": 0.03319408576436089,
+      "relative_force_rms": 0.0003888462466258533,
+      "EPtot_difference_kcal_mol": 0.0029999999997016857,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.038699999999948886,
+      "PRESS_difference": -0.10000000000013642
+    }
+  },
+  "benzene/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.003353791447478188,
+      "force_max_kcal_mol_A": 0.026160541746992116,
+      "relative_force_rms": 0.00023751610610559228,
+      "EPtot_difference_kcal_mol": 0.027399999999943248,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432617088822,
+      "force_max_kcal_mol_A": 0.026220719582042307,
+      "relative_force_rms": 0.0002374135453321424,
+      "EPtot_difference_kcal_mol": 0.023299999999835563,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/alpha_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.003353665084980578,
+      "force_max_kcal_mol_A": 0.02620354917974277,
+      "relative_force_rms": 0.00024243934344110458,
+      "EPtot_difference_kcal_mol": 0.025200000000040745,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616832426,
+      "force_max_kcal_mol_A": 0.026220719582083607,
+      "relative_force_rms": 0.0002423437876941141,
+      "EPtot_difference_kcal_mol": 0.023199999999633292,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 16.353,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/alpha_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033542951529580618,
+      "force_max_kcal_mol_A": 0.026076018366680387,
+      "relative_force_rms": 0.00022343393602033745,
+      "EPtot_difference_kcal_mol": 0.030700000000251748,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616835644,
+      "force_max_kcal_mol_A": 0.026220719580296148,
+      "relative_force_rms": 0.00022330391801945876,
+      "EPtot_difference_kcal_mol": 0.023199999999633292,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 19.987,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/beta_minus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033536607782593563,
+      "force_max_kcal_mol_A": 0.026172140535557276,
+      "relative_force_rms": 0.0002394463721922316,
+      "EPtot_difference_kcal_mol": 0.027000000000043656,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616833016,
+      "force_max_kcal_mol_A": 0.026220719582337182,
+      "relative_force_rms": 0.00023935230347589496,
+      "EPtot_difference_kcal_mol": 0.02329999999892607,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.285
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/beta_plus10": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033538219101004177,
+      "force_max_kcal_mol_A": 0.026149907671039863,
+      "relative_force_rms": 0.00023513506817820554,
+      "EPtot_difference_kcal_mol": 0.027599999999438296,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616860633,
+      "force_max_kcal_mol_A": 0.026220719580907215,
+      "relative_force_rms": 0.0002350314007489143,
+      "EPtot_difference_kcal_mol": 0.023299999999835563,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 4.015
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/radii_0p1": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.003353783811054799,
+      "force_max_kcal_mol_A": 0.026161771168099257,
+      "relative_force_rms": 0.00023751555667985815,
+      "EPtot_difference_kcal_mol": 0.02750000000014552,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.003352343261704122,
+      "force_max_kcal_mol_A": 0.026220719580639873,
+      "relative_force_rms": 0.0002374135367226316,
+      "EPtot_difference_kcal_mol": 0.023299999999835563,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.1,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/radii_0p4": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033537314165631997,
+      "force_max_kcal_mol_A": 0.0261577248777769,
+      "relative_force_rms": 0.00024109139541060728,
+      "EPtot_difference_kcal_mol": 0.033500000000458385,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.00335234303941921,
+      "force_max_kcal_mol_A": 0.026220756332881123,
+      "relative_force_rms": 0.00024099158843699346,
+      "EPtot_difference_kcal_mol": 0.023200000000542786,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.4,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/heterogeneous": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033539956468121726,
+      "force_max_kcal_mol_A": 0.026108446463240398,
+      "relative_force_rms": 0.00022592289423463066,
+      "EPtot_difference_kcal_mol": 0.028899999999339343,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616634876,
+      "force_max_kcal_mol_A": 0.02622071967592632,
+      "relative_force_rms": 0.00022581159068075273,
+      "EPtot_difference_kcal_mol": 0.023299999999835563,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.3,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/baseline_order6": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0001662483214065259,
+      "force_max_kcal_mol_A": 0.0022179980921031017,
+      "relative_force_rms": 1.1773764115885656e-05,
+      "EPtot_difference_kcal_mol": 0.005199999999604188,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.00015562912182202202,
+      "force_max_kcal_mol_A": 0.0012560366780096643,
+      "relative_force_rms": 1.1021708696921577e-05,
+      "EPtot_difference_kcal_mol": 0.0009999999992942321,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene/virial": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0033538972268813785,
+      "force_max_kcal_mol_A": 0.02614564419140386,
+      "relative_force_rms": 0.00023752359741542606,
+      "EPtot_difference_kcal_mol": 0.026899999999841384,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.041200000000003456,
+      "PRESS_difference": -0.10000000000002274
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0033523432616635535,
+      "force_max_kcal_mol_A": 0.02622071958088057,
+      "relative_force_rms": 0.0002374135453226434,
+      "EPtot_difference_kcal_mol": 0.023299999999835563,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "VIRIAL_difference": 0.05620000000004666,
+      "PRESS_difference": -0.10000000000002274
+    }
+  },
+  "methanol_large/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.001796214966929122,
+      "force_max_kcal_mol_A": 0.012877897565145013,
+      "relative_force_rms": 0.00013017998473407896,
+      "EPtot_difference_kcal_mol": -0.040000000000873115,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0017962700639755854,
+      "force_max_kcal_mol_A": 0.012875607096431096,
+      "relative_force_rms": 0.00013018397787120317,
+      "EPtot_difference_kcal_mol": -0.022799999998824205,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "ethanol_large/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.0014600566228942901,
+      "force_max_kcal_mol_A": 0.00962467651193677,
+      "relative_force_rms": 0.00010545582920473169,
+      "EPtot_difference_kcal_mol": -0.043099999995320104,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0014598304146749353,
+      "force_max_kcal_mol_A": 0.009604249887907201,
+      "relative_force_rms": 0.0001054394908141714,
+      "EPtot_difference_kcal_mol": -0.029199999997217674,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  },
+  "benzene_large/baseline": {
+    "spfp": {
+      "force_rms_kcal_mol_A": 0.001719827296534541,
+      "force_max_kcal_mol_A": 0.01095566248859825,
+      "relative_force_rms": 0.00012496699011444503,
+      "EPtot_difference_kcal_mol": -0.023399999998218846,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    },
+    "dpfp": {
+      "force_rms_kcal_mol_A": 0.0017194883726237833,
+      "force_max_kcal_mol_A": 0.010984376916745475,
+      "relative_force_rms": 0.00012494236304805845,
+      "EPtot_difference_kcal_mol": -0.0021999999953550287,
+      "parameters": {
+        "GAUSS_RADII_LIST": 0.2,
+        "DOUBLE_EXPONENTIAL_A": 18.17,
+        "DOUBLE_EXPONENTIAL_C": 3.65
+      },
+      "PRESS_difference": 0.0
+    }
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "metadata": {
+    "description": "Final selected DEGAUSS GPU direct alchemy versus matched MD and classical GTI benchmarks. Per-window sampling and collection; not converged free-energy cost.",
+    "hardware": "One NVIDIA GeForce RTX 5090 per run",
+    "precision": "SPFP",
+    "timestep_fs": 2,
+    "temperature_K": 300,
+    "langevin_gamma_per_ps": 2,
+    "ensemble": "NVT",
+    "ntc": 2,
+    "ntf": 1,
+    "pme_order": 4,
+    "pme_direct_sum_tolerance": 1e-05,
+    "pme_mesh_large": [
+      56,
+      56,
+      56
+    ],
+    "pme_mesh_small_benzene": [
+      32,
+      32,
+      28
+    ],
+    "cutoff_A_large": 10,
+    "cutoff_A_small_benzene": 8,
+    "energy_and_collection_stride_steps": 500,
+    "trajectory_stride_steps": 0,
+    "direct_wq": 0.5,
+    "direct_wv": 0.5,
+    "direct_collection_mode": "full electrostatic and van der Waals coefficients",
+    "gti_stage": "decharged-solute softcore vdW, lambda 0.5, scalpha 0.5, scbeta 12",
+    "target_lambda": [
+      0.0,
+      0.05263157894736842,
+      0.10526315789473684,
+      0.15789473684210525,
+      0.21052631578947367,
+      0.2631578947368421,
+      0.3157894736842105,
+      0.3684210526315789,
+      0.42105263157894735,
+      0.5,
+      0.5263157894736842,
+      0.5789473684210527,
+      0.631578947368421,
+      0.6842105263157895,
+      0.7368421052631579,
+      0.7894736842105263,
+      0.8421052631578947,
+      0.8947368421052632,
+      0.9473684210526315,
+      1.0
+    ],
+    "excluded_costs": [
+      "coefficient expansion to reduced-potential matrix",
+      "final MBAR solver"
+    ],
+    "wall_time_scope": "complete subprocess, including initialization, output and shutdown",
+    "timing_order": "interleaved, reversed in second repetition",
+    "source_batches": {
+      "benchmark": "parallel_bonded_clear/benchmark/records.json",
+      "flags": "parallel_bonded_clear/all_parallel_flags/records.json"
+    },
+    "source_record_sha256": {
+      "benchmark": "14ea1a3de21102aaa85384ea64cb4779a04036d50a3cb718657053cf7af9af9d",
+      "flags": "0a0ad5b39a664d8f8b2c54b99a84b59e684eca29ae1b845a8674fb1570240f53"
+    }
+  },
+  "summary": [
+    {
+      "system": "methanol",
+      "atoms": 13710,
+      "steps_per_run": 50000,
+      "repetitions": 3,
+      "selected_gti_build": "ti_mbar",
+      "md": 1696.42,
+      "direct": 1693.09,
+      "ti": 614.77,
+      "ratio": 2.7540218293020153,
+      "wall_ratio": 2.6357442291515083
+    },
+    {
+      "system": "ethanol",
+      "atoms": 14439,
+      "steps_per_run": 100000,
+      "repetitions": 3,
+      "selected_gti_build": "ti_mbar",
+      "md": 1653.67,
+      "direct": 1648.6,
+      "ti": 609.31,
+      "ratio": 2.7056834780325287,
+      "wall_ratio": 2.644599166755591
+    },
+    {
+      "system": "benzene",
+      "atoms": 15195,
+      "steps_per_run": 50000,
+      "repetitions": 3,
+      "selected_gti_build": "ti_rdc",
+      "md": 1351.2,
+      "direct": 1355.28,
+      "ti": 551.01,
+      "ratio": 2.459628681875102,
+      "wall_ratio": 2.379168124374099
+    },
+    {
+      "system": "small_benzene",
+      "atoms": 2505,
+      "steps_per_run": 100000,
+      "repetitions": 3,
+      "selected_gti_build": "ti_rdc",
+      "md": 2074.0,
+      "direct": 2074.86,
+      "ti": 703.25,
+      "ratio": 2.9503874866690367,
+      "wall_ratio": 2.8589865840056294
+    }
+  ],
+  "runs": [
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 1,
+      "ns_day": 1695.86,
+      "wall_seconds": 5.4754429422318935
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 1,
+      "ns_day": 1693.09,
+      "wall_seconds": 5.477208122611046
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 1,
+      "ns_day": 614.34,
+      "wall_seconds": 14.446203380823135
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 1,
+      "ns_day": 612.92,
+      "wall_seconds": 14.491501670330763
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 2,
+      "ns_day": 612.83,
+      "wall_seconds": 14.4887211099267
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 2,
+      "ns_day": 614.77,
+      "wall_seconds": 14.43651970103383
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 2,
+      "ns_day": 1691.98,
+      "wall_seconds": 5.4827507100999355
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 2,
+      "ns_day": 1696.42,
+      "wall_seconds": 5.472267422825098
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 3,
+      "ns_day": 1697.67,
+      "wall_seconds": 5.462850492447615
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 3,
+      "ns_day": 1693.63,
+      "wall_seconds": 5.477023057639599
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 3,
+      "ns_day": 614.79,
+      "wall_seconds": 14.434295821934938
+    },
+    {
+      "system": "methanol",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 3,
+      "ns_day": 613.24,
+      "wall_seconds": 14.479167703539133
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 1,
+      "ns_day": 1658.43,
+      "wall_seconds": 10.86340081691742
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 1,
+      "ns_day": 1648.6,
+      "wall_seconds": 10.857458222657442
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 1,
+      "ns_day": 609.31,
+      "wall_seconds": 28.814327027648687
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 1,
+      "ns_day": 601.28,
+      "wall_seconds": 29.1927958317101
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 2,
+      "ns_day": 597.97,
+      "wall_seconds": 29.35426240414381
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 2,
+      "ns_day": 609.79,
+      "wall_seconds": 28.79133592173457
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 2,
+      "ns_day": 1647.79,
+      "wall_seconds": 10.93094864860177
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 2,
+      "ns_day": 1652.54,
+      "wall_seconds": 10.901558209210634
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 3,
+      "ns_day": 1653.67,
+      "wall_seconds": 10.898288480937481
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 3,
+      "ns_day": 1652.51,
+      "wall_seconds": 10.895536605268717
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 3,
+      "ns_day": 609.24,
+      "wall_seconds": 28.817654952406883
+    },
+    {
+      "system": "ethanol",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 3,
+      "ns_day": 598.47,
+      "wall_seconds": 29.332331586629152
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 1,
+      "ns_day": 1351.2,
+      "wall_seconds": 6.767830692231655
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 1,
+      "ns_day": 1355.28,
+      "wall_seconds": 6.747071344405413
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 1,
+      "ns_day": 537.15,
+      "wall_seconds": 16.476696114987135
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 1,
+      "ns_day": 551.01,
+      "wall_seconds": 16.064208887517452
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 2,
+      "ns_day": 550.83,
+      "wall_seconds": 16.077251616865396
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 2,
+      "ns_day": 537.8,
+      "wall_seconds": 16.45637535303831
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 2,
+      "ns_day": 1354.44,
+      "wall_seconds": 6.752027619630098
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 2,
+      "ns_day": 1350.33,
+      "wall_seconds": 6.781130146235228
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_md",
+      "rep": 3,
+      "ns_day": 1351.4,
+      "wall_seconds": 6.767179276794195
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "graph_basis",
+      "rep": 3,
+      "ns_day": 1357.28,
+      "wall_seconds": 6.802526943385601
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_mbar",
+      "rep": 3,
+      "ns_day": 538.52,
+      "wall_seconds": 16.492509499192238
+    },
+    {
+      "system": "benzene",
+      "batch": "flags",
+      "steps": 50000,
+      "variant": "ti_rdc",
+      "rep": 3,
+      "ns_day": 552.45,
+      "wall_seconds": 16.02199274301529
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 1,
+      "ns_day": 2078.57,
+      "wall_seconds": 8.725466169416904
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 1,
+      "ns_day": 2069.45,
+      "wall_seconds": 8.761259276419878
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 1,
+      "ns_day": 667.76,
+      "wall_seconds": 26.290455020964146
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 1,
+      "ns_day": 700.55,
+      "wall_seconds": 25.028712920844555
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 2,
+      "ns_day": 703.25,
+      "wall_seconds": 24.99801891297102
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 2,
+      "ns_day": 666.58,
+      "wall_seconds": 26.336220487952232
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 2,
+      "ns_day": 2074.86,
+      "wall_seconds": 8.743664294481277
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 2,
+      "ns_day": 2073.98,
+      "wall_seconds": 8.744789496064186
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_md",
+      "rep": 3,
+      "ns_day": 2074.0,
+      "wall_seconds": 8.743854124099016
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "graph_basis",
+      "rep": 3,
+      "ns_day": 2075.65,
+      "wall_seconds": 8.738013662397861
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_mbar",
+      "rep": 3,
+      "ns_day": 668.34,
+      "wall_seconds": 26.266712449491024
+    },
+    {
+      "system": "small_benzene",
+      "batch": "benchmark",
+      "steps": 100000,
+      "variant": "ti_rdc",
+      "rep": 3,
+      "ns_day": 703.72,
+      "wall_seconds": 24.971666269004345
+    }
+  ]
+}

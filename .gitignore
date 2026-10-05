@@ -1,0 +1,4 @@
+data/
+verification/*.log
+__pycache__/
+.venv/

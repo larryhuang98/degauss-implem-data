@@ -1,0 +1,110 @@
+{
+  "source": "https://raw.githubusercontent.com/MobleyLab/FreeSolv/master/database.json",
+  "entries": {
+    "mobley_3053621": {
+      "d_charging": 0.009,
+      "expt_reference": "10.1039/P29900000291",
+      "nickname": " benzene",
+      "expt_s (cal/K.mol)": -28.883875099999997,
+      "expt_h": -7.59561068,
+      "h_conf": 0.10963551534525369,
+      "d_h_solv": 0.7039612431254725,
+      "smiles": "c1ccccc1",
+      "calc_h": -10.908119980582342,
+      "d_expt_s (cal/K.mol)": 0.19598491999999998,
+      "d_expt_h": 0.0478012,
+      "d_calc": 0.023,
+      "iupac": "benzene",
+      "calc_charging": -2.708,
+      "d_calc_h": 0.7027503224187486,
+      "d_h_conf": 0.041793633760016956,
+      "d_vdw": 0.021,
+      "d_expt": 0.2,
+      "h_solv": -11.000978925742642,
+      "d_calc_s (cal/mol.K)": 2.3582981721375926,
+      "expt": -0.9,
+      "calc_vdw": 1.902,
+      "expt_h_reference": "10.1023/B:IJOT.0000028472.63853.2d",
+      "calc_reference": "10.1021/acs.jced.7b00104",
+      "groups": [
+        "aromatic"
+      ],
+      "calc": -0.806,
+      "PubChemID": 241,
+      "notes": [
+        "Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol."
+      ],
+      "calc_s (cal/mol.K)": -33.882676439987726
+    },
+    "mobley_1636752": {
+      "d_charging": 0.011,
+      "expt_reference": "10.1021/ct050097l",
+      "nickname": " methanol",
+      "expt_s (cal/K.mol)": "Not available",
+      "expt_h": "Not available",
+      "h_conf": 0.028144599471263517,
+      "d_h_solv": 0.703165437723642,
+      "smiles": "CO",
+      "calc_h": -11.626304032224652,
+      "d_expt_s (cal/K.mol)": "Not available",
+      "d_expt_h": "Not available",
+      "d_calc": 0.017,
+      "iupac": "methanol",
+      "calc_charging": -5.141,
+      "d_calc_h": 0.7027407772760846,
+      "d_h_conf": 0.022435770142286173,
+      "d_vdw": 0.013,
+      "d_expt": 0.6,
+      "h_solv": -11.663557313556968,
+      "d_calc_s (cal/mol.K)": 2.35769367994642,
+      "expt": -5.1,
+      "calc_vdw": 1.65,
+      "expt_h_reference": "Not available",
+      "calc_reference": "10.1021/acs.jced.7b00104",
+      "groups": [
+        "primary alcohol"
+      ],
+      "calc": -3.491,
+      "PubChemID": 887,
+      "notes": [
+        "Experimental uncertainty not presently available, so assigned a default value."
+      ],
+      "calc_s (cal/mol.K)": -27.28594342520427
+    },
+    "mobley_2310185": {
+      "d_charging": 0.011,
+      "expt_reference": "10.1021/ct050097l",
+      "nickname": " ethanol",
+      "expt_s (cal/K.mol)": "Not available",
+      "expt_h": "Not available",
+      "h_conf": 0.17229845282072015,
+      "d_h_solv": 0.7123179316998995,
+      "smiles": "CCO",
+      "calc_h": -12.243972833692169,
+      "d_expt_s (cal/K.mol)": "Not available",
+      "d_expt_h": "Not available",
+      "d_calc": 0.02,
+      "iupac": "ethanol",
+      "calc_charging": -5.174,
+      "d_calc_h": 0.7116399315464449,
+      "d_h_conf": 0.03169283775998346,
+      "d_vdw": 0.016,
+      "d_expt": 0.6,
+      "h_solv": -12.431176029544327,
+      "d_calc_s (cal/mol.K)": 2.3877944560683204,
+      "expt": -5.0,
+      "calc_vdw": 1.779,
+      "expt_h_reference": "Not available",
+      "calc_reference": "10.1021/acs.jced.7b00104",
+      "groups": [
+        "primary alcohol"
+      ],
+      "calc": -3.394,
+      "PubChemID": 702,
+      "notes": [
+        "Experimental uncertainty not presently available, so assigned a default value."
+      ],
+      "calc_s (cal/mol.K)": -29.682954330679756
+    }
+  }
+}
